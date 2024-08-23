@@ -18,6 +18,12 @@
     }
   },
   {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "ctrl-shift-e": "workspace::ToggleLeftDock"
+    }
+  },
+  {
     "context": "ProjectPanel",
     "bindings": {
       "ctrl-n": "project_panel::ToggleFocus"
