@@ -1,12 +1,6 @@
 [
   {
-    "context": "Editor && vim_mode == insert && !menu",
-    "bindings": {
-      "j k": ["vim::SwitchMode", "Normal"]
-    }
-  },
-  {
-    "context": "Editor ",
+    "context": "Editor",
     "bindings": {
       "ctrl-n": "project_panel::ToggleFocus"
     }
@@ -15,12 +9,6 @@
     "context": "Workspace",
     "bindings": {
       "ctrl-n": "project_panel::ToggleFocus"
-    }
-  },
-  {
-    "context": "ProjectPanel && not_editing",
-    "bindings": {
-      "ctrl-shift-e": "workspace::ToggleLeftDock"
     }
   },
   {
@@ -40,5 +28,12 @@
     "bindings": {
       "ctrl-i": "terminal_panel::ToggleFocus"
     }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-n": "workspace::ToggleLeftDock"
+    }
   }
 ]
+
